@@ -8,8 +8,7 @@ st.set_page_config(layout="wide")
 
 with st.sidebar:
     st.image("BallTrack.png")
-    st.header("🏟️ Match Details")
-    st.markdown("---")
+    st.header("🏟️ Match Details", divider='gray')
     bat_team = st.text_input("Batting Team")
     bowl_team = st.text_input("Bowling Team")
     innings = st.radio("Innings",["1","2"],horizontal = True)
@@ -17,8 +16,7 @@ with st.sidebar:
     bowl_players = st.text_area(f"Enter {bowl_team}'s Players ")
     start = st.toggle("Start App 🚀")
 
-st.header(" :cricket_bat_and_ball: _BallTrack_ _Analyzer_: Every Ball, Every Insight :bar_chart:")
-st.markdown("---")
+st.header(" :cricket_bat_and_ball: _BallTrack_ _Analyzer_: Every Ball, Every Insight :bar_chart:", divider='gray')
 
 
 if 'ball_data' not in st.session_state:
