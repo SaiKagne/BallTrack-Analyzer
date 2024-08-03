@@ -7,7 +7,7 @@ import numpy as np
 st.set_page_config(layout="wide")
 
 with st.sidebar:
-    st.image("BallTrack.png")
+    st.logo("BallTrack.png")
     st.header("🏟️ Match Details", divider='gray')
     bat_team = st.text_input("Batting Team")
     bowl_team = st.text_input("Bowling Team")
