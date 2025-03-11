@@ -147,5 +147,5 @@ if start:
 st.markdown("---")
 st.markdown("<h4 style='font-size: 18px;'>🛠️ App Developed By:</h4>", unsafe_allow_html=True)
 st.markdown("<p style='font-size: 16px;'>"
-            "<a href='https://www.linkedin.com/in/aakansha-sonawane01/' target='_blank'>👨‍💻 Aakansha Sonawane</a>",unsafe_allow_html=True)
+            "<a href='https://www.linkedin.com/in/saiprasad-kagne/' target='_blank'>👨‍💻 Saiprasad Kagne</a>",unsafe_allow_html=True)
 
